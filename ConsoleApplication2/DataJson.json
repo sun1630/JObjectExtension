@@ -20,7 +20,7 @@
 			}
 		],
 		ExchangeRates:[
-			meiyuan-renminbi{
+			meiyuan-renminbi:{
 				美元:'',
 				人民币:''
 			}
