@@ -143,7 +143,7 @@
 
             JObject j = jToken as JObject;
             j[arr[arr.Length - 1]] = value;
-                
+
             if (onPropertyChangedProcessAction != null)
             {
                 onPropertyChangedProcessAction(
@@ -289,30 +289,6 @@ namespace TestConsoleApp6
 
             //jObject["F2"][1]["F90"] = JObject.Parse("{'a':1,'b':2}");
             //jObject["F3"] = "zzzz";
-
-
-            //jObject.Set(jObject, "Name", new JValue("hw"),
-            //    (target) =>
-            //    {
-            //        Console.WriteLine
-            //        (
-            //            "{0}"
-            //            , target
-            //        );
-            //    }
-            //);
-
-            //jObject.Set(jObject, "F3", new JValue("this is F3"), null);
-
-            //Console.WriteLine(
-            //        jObject.ToString()
-            //);
-
-            //jObject.Set(jObject, "F4", new JValue("{F5:{F6:'this is F6'}}"), null);
-
-            //Console.WriteLine(
-            //        jObject.ToString()
-            //);
             
             jObject.Set("F4.F5.F6.F7", new JValue("666"), null);
 
